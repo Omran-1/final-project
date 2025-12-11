@@ -1,0 +1,191 @@
+body{
+    margin: 0px;
+    background-color: #ffffff;
+}
+.topper{
+    display: flex;
+    background-color: #ffffff;
+    border-bottom: 2px solid #000000;
+
+}
+#Main-title{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 60px;
+  margin-top: 21px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  color: orange;
+
+  -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-color: #000000; 
+
+}
+#Main-image{
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    padding: 10px;
+
+}
+#Sub-header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin-top: 35px;
+    padding-left: 5px;
+    -webkit-text-stroke-width: 1.5px; 
+    -webkit-text-stroke-color: #517992; 
+    font-size: 40px;
+}
+
+.navigation{
+    background-color:#ffffff ;
+    text-align: center;
+    height: 45px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 2px solid #000000;
+}
+hr{
+    display: inline-block;
+    height: 18px;
+    margin-bottom: 0;
+    text-align: center;
+    
+}
+.hover:hover{
+    background-color: white;
+    opacity: 50%;
+    position: relative;
+    font-size: 22px;
+    border:0px;
+}
+#VSub-header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin-top: 34px;
+    padding-left: 5px;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: #517992; 
+    font-size:20px;
+}
+.hover{
+    display: inline-block;
+    padding-inline: 100px;
+    color: black;
+    font-size: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.about{
+    padding-top: 20px;
+    text-align: center;
+    height: 45px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+#hero{
+    width: fit-content;
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%); 
+}
+.Header{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 70px;
+  color: white;
+
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #000000; 
+
+}
+p{
+    font-size: 25px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+iframe{
+    border: 7px solid #000000;
+    margin: 15px;
+}
+.San-facts{
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 105px;
+    vertical-align: top;
+    color: white;
+    font-size: 25px;    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.trailer{
+    display: flow-root;
+    text-align: center;
+    margin-left:366px ;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 350px;
+}
+.trailer:hover{
+        background-color: #a8c8dd;
+        opacity: 70%;
+}
+.about-nav{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.rules {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.rules h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 70px;
+  color: white;
+
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #000000; 
+
+}
+
+.rule-block {
+  margin-bottom: 2rem;
+}
+
+.rule-block h2 {
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+
+.rule-block ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+table th {
+  background-color: #f4a261;
+  color: #fff;
+}
+
